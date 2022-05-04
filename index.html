@@ -364,7 +364,36 @@
     </footer>
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
-           <button type="button" class="modal-btn" data-modal-close>&#9587;</button> 
+           <button type="button" class="modal-btn" data-modal-close>&#9587;</button>
+           <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
+           <form>
+               <label for="user-name" class="modal-label">Имя</label>
+               <input 
+               type="text" 
+               class="modal-input" 
+               name="user-name"
+               required
+               id="user-name"
+               >
+               <label for="user-tel" class="modal-label">Телефон</label>
+               <input 
+               type="tel" 
+               class="modal-input"
+               name="user-tel"
+               required
+               id="user-tel"
+               >
+               <label for="user-email" class="modal-label">Почта</label>
+               <input 
+               type="email" 
+               class="modal-input"
+               name="user-email"
+               id="user-email"
+               >
+               <label for="user-coment" class="modal-label">Комментарий</label>
+               <textarea name="user-text" id="user-coment" placeholder="Введите текст" class="modal-text"></textarea>
+               <button type="submit" class="modal-input-btn">Отправить</button>
+           </form> 
         </div>
     </div>
     <script src="./js/modal.js"></script>
