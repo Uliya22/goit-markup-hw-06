@@ -795,6 +795,7 @@ address {
     margin-right: 7px;
     border: 2px solid var(--title-text-color);
     border-radius: 2px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .icon-check {
     fill: transparent;
